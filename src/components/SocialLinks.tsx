@@ -8,7 +8,7 @@ const SocialLinks = () => {
       id: 1,
       name: "LinkedIn",
       icon: <FaLinkedin size={30} />,
-      href: "",
+      href: "https://www.linkedin.com/in/badmussulaimon/",
       style: " rounded-tr-md",
     },
     {

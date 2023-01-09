@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import moverslyUser from "../assets/images/moversly user.png";
 import moverslyAdmin from "../assets/images/Moversly Admin.png";
 import zest from "../assets/images/zest.png";
 import doubble from "../assets/images/doubbleWeb.png";
 const PortFolio = () => {
+  const [githubData, setGithubData] = useState<any>({});
+  const [githubUser, setGithubUser] = useState<string>("haryobamy");
+
   const portfolios = [
     {
       id: 1,
@@ -35,6 +38,18 @@ const PortFolio = () => {
     // },
   ];
 
+  const fetchData = async () => {
+    fetch(`https://api.github.com/users/${githubUser}`)
+      .then((response) => response.json())
+      .then((data) => setGithubData(data));
+  };
+
+  console.log(githubData);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div
       //@ts-ignore
@@ -47,6 +62,25 @@ const PortFolio = () => {
             Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>
+        </div>
+
+        <div className=" flex flex-col items-center justify-center">
+          <img src={githubData?.avatar_url} className=" rounded-lg w-1/4" />
+          <p className=" font-signature text-2xl mt-2">{githubData?.name}</p>
+          <p> Public repo : {githubData?.public_repos} </p>
+        </div>
+
+        <div className="my-6 ">
+          <input
+            type="text"
+            placeholder="Search for User"
+            value={githubUser}
+            onChange={(e) => setGithubUser(e.target.value)}
+            className=" bg-transparent"
+          />
+          <button onClick={fetchData} className="search_button">
+            Search Github
+          </button>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

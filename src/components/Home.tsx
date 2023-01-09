@@ -7,7 +7,7 @@ const Home = () => {
     <div
       // @ts-ignore
       name="Home"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
+      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 pt-[120px] "
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center h-full">
