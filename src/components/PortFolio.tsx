@@ -54,7 +54,7 @@ const PortFolio = () => {
     <div
       //@ts-ignore
       name="Portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white"
+      className="bg-gradient-to-b from-black to-gray-800 w-full md:h-screen text-white  lg:pt-[400px] pb-[550px]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

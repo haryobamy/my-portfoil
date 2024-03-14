@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! This project showcases my skills, projects, and experience as a full-stack developer.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+As a passionate full-stack developer, I enjoy creating innovative solutions and building user-friendly applications. My portfolio serves as a platform to demonstrate my expertise in various technologies and showcase my projects.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend:** HTML5, CSS3,Tailwind, Typescript, React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Deployment:** Vercel
+- **Version Control:** Git, GitHub
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Responsive Design:** The portfolio is built with responsive design principles, ensuring a seamless experience across all devices.
+- **Project Showcase:** Explore my projects with detailed descriptions, screenshots, and live demos.
+- **Contact Form:** Connect with me easily using the built-in contact form to discuss potential opportunities or collaborations.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Projects
 
-### `npm run build`
+### Project 1: Investment Plaform
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Description: Doubble is a product of Sterling Bank, so your money is in safe hands.
+  Two factor authentication is enabled, which means that your investment is always protected.
+  Your account balance and investment details are secured with a transaction PIN known only to you.
+- Technologies: Nextjs,Typescript, React.
+- Live Demo: https://doubble.ng
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Project 2: E-commerce Platform
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Description: A fully functional e-commerce platform built with React.js and Node.js, allowing users to browse products, add them to cart, and make secure payments.
+- Technologies: React.js, Node.js, Express.js, MongoDB
+- Live Demo: (#)
 
-### `npm run eject`
+## Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can view a live demo of the project [here](#).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Screenshot 1](/screenshots/screenshot1.png)
+![Screenshot 2](/screenshots/screenshot2.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Installation
 
-## Learn More
+To run the portfolio locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository: `git clone https://github.com/haryobamy/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+
+Have a project in mind or just want to say hello? Feel free to reach out to me:
+
+- **Email:** haryobamy.badmus@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/badmussulaimon
+- **GitHub:** https://github.com/haryobamy
