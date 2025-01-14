@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
 
 const About = () => {
   return (
-    <div
+    <section
       // @ts-ignore
-      name="About Me"
-      className="w-full  h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-[400px] pb-[750px]"
+      name='About Me'
+      className='w-full h-full lg:h-screen bg-gradient-to-b from-gray-800 to-black text-white  lg:pt-[400px] lg:pb-[750px]'
     >
-      <div className="max-w-screen-lg p-4 mx-auto  flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+      <div className='max-w-screen-lg p-4 mx-auto  flex flex-col justify-center w-full h-full'>
+        <div className='pb-8'>
+          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className='text-xl mt-5 lg:mt-20'>
           My name is Badmus Sulaimon Olawole, a self-taught developer, and today
           I'm thrilled to share the narrative of my unique journey into the
           expansive world of software development.Growing up, I wasn't
@@ -33,7 +33,7 @@ const About = () => {
           <br />
         </p>
 
-        <p className="text-xl">
+        <p className='text-xl'>
           The discovery of open source projects and developer communities was a
           game-changer. Collaborating with other enthusiasts, contributing to
           projects, and receiving feedback opened new doors of learning. The
@@ -46,7 +46,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className='text-xl'>
           Projects became my playground for application and discovery. From
           simple games to dynamic websites, each project was a canvas to
           implement and reinforce the concepts learned. It was not just about
@@ -54,7 +54,7 @@ const About = () => {
         </p>
         <br />
 
-        <p className="text-xl">
+        <p className='text-xl'>
           Crafting a portfolio became my canvas to showcase the evolving skills.
           Personal projects, challenges, and the occasional hackathon entry
           found a home in my portfolio. It was a testament to the progress made
@@ -67,14 +67,14 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className='text-xl'>
           As I stand here today, a self-taught developer, I recognize that the
           learning journey never truly ends. The tech landscape evolves, and I
           embrace the constant pursuit of knowledge, eager to tackle new
           challenges and contribute to the ever-growing tapestry of code.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

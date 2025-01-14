@@ -1,40 +1,40 @@
-import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import React from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 const SocialLinks = () => {
   const socials = [
     {
       id: 1,
-      name: "LinkedIn",
+      name: 'LinkedIn',
       icon: <FaLinkedin size={30} />,
-      href: "https://www.linkedin.com/in/badmussulaimon/",
-      style: " rounded-tr-md",
+      href: 'https://www.linkedin.com/in/badmussulaimon/',
+      style: ' rounded-tr-md',
     },
     {
       id: 2,
-      name: "Github",
+      name: 'Github',
       icon: <FaGithub size={30} />,
-      href: "https://github.com/haryobamy",
+      href: 'https://github.com/haryobamy',
     },
     {
       id: 3,
-      name: "Mail",
+      name: 'Mail',
       icon: <HiOutlineMail size={30} />,
-      href: "mailto:haryobamy.badmus@gmail.com",
+      href: 'mailto:haryobamy.badmus@gmail.com',
     },
     {
       id: 4,
-      name: "Resume",
+      name: 'Resume',
       icon: <BsFillPersonLinesFill size={30} />,
-      href: "/resume.pdf",
-      style: " rounded-br-md",
+      href: '/Badmus_Sulaimon_Fullstack_Egineer_Resume.pdf',
+      style: ' rounded-br-md',
       download: true,
     },
   ];
 
   return (
-    <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className=' hidden lg:flex flex-col top-[35%] left-0 fixed'>
       <ul>
         {socials?.map(({ name, style, href, icon, id, download }) => {
           return (
@@ -42,18 +42,18 @@ const SocialLinks = () => {
               key={id}
               className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 ${style}`}
             >
-              {" "}
+              {' '}
               <a
                 href={href}
-                target="_blank"
+                target='_blank'
                 download={download}
-                rel="noreferrer"
-                className=" flex justify-between items-center w-full text-white"
+                rel='noreferrer'
+                className=' flex justify-between items-center w-full text-white'
               >
                 <>
                   {name} {icon}
                 </>
-              </a>{" "}
+              </a>{' '}
             </li>
           );
         })}
