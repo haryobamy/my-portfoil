@@ -14,13 +14,19 @@ const NavBar = () => {
       name: 'About Me',
     },
     {
+      name: 'Work Experience',
+    },
+    {
       name: 'Portfolio',
     },
     {
-      name: 'Contact Me',
+      name: 'Skills',
     },
     {
-      name: 'Experience',
+      name: 'Education',
+    },
+    {
+      name: 'Contact Me',
     },
   ];
   return (

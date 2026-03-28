@@ -1,63 +1,55 @@
-# My Portfolio
+# Badmus Sulaimon | Senior Software Engineer
 
-Welcome to my portfolio! This project showcases my skills, projects, and experience as a full-stack developer.
+Personal portfolio showcasing 5+ years of experience building scalable, high-performance products across fintech, banking, logistics, and e-commerce.
 
-## Overview
+## Tech Stack
 
-As a passionate full-stack developer, I enjoy creating innovative solutions and building user-friendly applications. My portfolio serves as a platform to demonstrate my expertise in various technologies and showcase my projects.
+**Mobile & Frontend**
+- React Native (CLI & Expo)
+- React.js / Next.js
+- TypeScript
+- Tailwind CSS
 
-## Technologies Used
+**Backend & APIs**
+- Node.js / NestJS
+- C# / ASP.NET Core
+- REST APIs / WebSockets
+- Firebase
 
-- **Frontend:** HTML5, CSS3,Tailwind, Typescript, React.js
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Deployment:** Vercel
-- **Version Control:** Git, GitHub
+**DevOps & Tools**
+- AWS / Azure
+- Docker
+- CI/CD (GitHub Actions)
+- Git
 
-## Features
+## Featured Projects
 
-- **Responsive Design:** The portfolio is built with responsive design principles, ensuring a seamless experience across all devices.
-- **Project Showcase:** Explore my projects with detailed descriptions, screenshots, and live demos.
-- **Contact Form:** Connect with me easily using the built-in contact form to discuss potential opportunities or collaborations.
+| Project | Description | Tech |
+|---------|-------------|------|
+| **Shiga App** | Production React Native app with wallet, transaction history, real-time delivery tracking | React Native, TypeScript, Firebase, AWS |
+| **Sterling Bank** | Frontend web interfaces for internet banking, payments, onboarding & KYC | Next.js, TypeScript, Ant Design |
+| **Moversly** | SaaS platform for international moving companies | React, React Native, TypeScript, AWS |
+| **ShipToNaija** | USA-to-Nigeria shipping platform | React, TypeScript, AWS |
+| **Doubble** | Financial savings and investment app | Next.js, TypeScript, Redux |
 
-## Projects
+## Local Development
 
-### Project 1: Investment Plaform
+```bash
+# Clone the repository
+git clone https://github.com/haryobamy/portfolio.git
 
-- Description: Doubble is a product of Sterling Bank, so your money is in safe hands.
-  Two factor authentication is enabled, which means that your investment is always protected.
-  Your account balance and investment details are secured with a transaction PIN known only to you.
-- Technologies: Nextjs,Typescript, React.
-- Live Demo: https://doubble.ng
+# Navigate to project directory
+cd portfolio
 
-### Project 2: E-commerce Platform
+# Install dependencies
+npm install
 
-- Description: A fully functional e-commerce platform built with React.js and Node.js, allowing users to browse products, add them to cart, and make secure payments.
-- Technologies: React.js, Node.js, Express.js, MongoDB
-- Live Demo: (#)
-
-## Demo
-
-You can view a live demo of the project [here](#).
-
-## Screenshots
-
-![Screenshot 1](/screenshots/screenshot1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
-
-## Installation
-
-To run the portfolio locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/haryobamy/portfolio.git`
-2. Navigate to the project directory: `cd portfolio`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+# Start development server
+npm start
+```
 
 ## Contact
 
-Have a project in mind or just want to say hello? Feel free to reach out to me:
-
 - **Email:** haryobamy.badmus@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/badmussulaimon
-- **GitHub:** https://github.com/haryobamy
+- **LinkedIn:** [badmussulaimon](https://www.linkedin.com/in/badmussulaimon/)
+- **GitHub:** [haryobamy](https://github.com/haryobamy)
